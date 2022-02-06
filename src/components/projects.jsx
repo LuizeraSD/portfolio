@@ -10,8 +10,7 @@ class Projects extends React.Component {
   componentDidMount() {
     const getJobs = async () => {
       const res = await fetch('https://luizcubas-portfolio-backend.herokuapp.com/jobs')
-      const data = await res.json()
-      console.log(data)
+      const data = await res.json()      
       this.setState({ jobs: data })
     }
     getJobs()    

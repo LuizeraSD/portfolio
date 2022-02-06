@@ -6,7 +6,7 @@ class Navbar extends React.Component {
       <nav className="navbar navbar-expand-sm navbar-light">
         <div className="container">
           <a className="navbar-brand" href="index.html">
-            <i className="uil uil-user"></i>{"Luiz Cubas"}
+            <i className="fas fa-user-tie"></i>{" Luiz Cubas"}
           </a>
 
           <button
