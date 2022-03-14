@@ -29,7 +29,7 @@ class About extends React.Component {
 
                 <div className="col-lg-5 col-md-12 col-12">
                     <div className="about-image svg">
-                        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGX5ERT33KKsQ/profile-displayphoto-shrink_200_200/0/1571094099438?e=1649894400&v=beta&t=tAbEQSy3LQaC-xLmELdcP9fDwOtS7xUE5ZiNoJdRy7U" className="profile-picture" alt="image" />
+                        <img src="/Foto_Linkedin.jpg" className="profile-picture" alt="image" />
                     </div>
                 </div>
 

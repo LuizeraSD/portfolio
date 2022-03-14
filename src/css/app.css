@@ -2,3 +2,12 @@
   border-radius: 50%;
   width: 250px;
 }
+
+.hidden { 
+  visibility: hidden;
+  width: 0px;
+}
+
+.loading {
+  width: 100px;
+}

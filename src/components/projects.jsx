@@ -28,7 +28,8 @@ class Projects extends React.Component {
                   <h2>Things I have done</h2>
                 </div>
 
-                  {jobs}   
+                <img src="/loading.gif" className={jobs.length > 0 ? 'hidden' : 'loading'}></img>
+                {jobs}
 
             </div>
           </div>
